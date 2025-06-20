@@ -1,6 +1,7 @@
  #!/bin/bash
 
 seleccion_distro(){
+    clear
     echo "[ 1 ] Debian"
     echo "[ 2 ] Arch"
     echo " "
@@ -20,6 +21,7 @@ seleccion_distro(){
 }
  
 debian(){
+	 clear
  	 echo "[ 1 ]: Ranger     [ 7 ] Git           [ 13 ] Rofi PowerMenu      [ 19 ] Nodesjs y NPM"
  	 echo "[ 2 ]: Qtile      [ 8 ] Rust          [ 14 ] Rofi WifiMenu       [ 20 ] Conpilador"
 	 echo "[ 3 ]: Rofi       [ 9 ] Cmake         [ 15 ] Docker              [ 21 ] Nushell" 
